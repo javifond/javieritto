@@ -1,0 +1,18 @@
+/* Header */
+
+.header {
+  background-color: var(--primary);
+  bottom: 0;
+  border-bottom: 1px solid var(--secondary);
+  flex-shrink: 0;
+  height: 100%;
+  left: 0;
+  padding: var(--xl-gutter);
+  position: sticky;
+  right: 0;
+  top: 0;
+
+  @media only screen and (min-width: 720px) {
+    border-bottom: none;
+  }
+}

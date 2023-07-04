@@ -1,0 +1,12 @@
+/* Social Links */
+
+.social-links {
+  display: flex;
+  gap: var(--xl-gutter);
+  margin-top: var(--xl-gutter);
+
+  @media only screen and (min-width: 720px) {
+    bottom: var(--xl-gutter);
+    position: fixed;
+  }
+}

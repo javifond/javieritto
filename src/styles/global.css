@@ -1,0 +1,23 @@
+:root {
+  /* Theme */
+  --primary: #023047;
+  --secondary: #8ecae6;
+  --ternary: #219ebc;
+  --headings: #fb8500;
+  --links: #ffb703;
+  --links-opacity: #ffb8031a;
+  --light: #ffffff;
+  --dark: #000000;
+  /* Spacing */
+  --xs-gutter: 2px;
+  --s-gutter: 4px;
+  --gutter: 8px;
+  --m-gutter: 16px;
+  --xl-gutter: 32px;
+  --xxl-gutter: 64px;
+  /* Settings */
+  --app-max-width: 1024px;
+  /* Font Sizes */
+  --s-font-size: 12px;
+  --font-size: 16px;
+}
