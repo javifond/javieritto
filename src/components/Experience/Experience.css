@@ -1,0 +1,28 @@
+/* Experience */
+
+.title {
+  color: var(--headings);
+}
+
+.description {
+  margin: var(--gutter) 0;
+  margin-bottom: var(--xl-gutter);
+}
+
+.dates {
+  margin: var(--gutter) 0;
+  text-transform: uppercase;
+}
+
+.pill {
+  background-color: var(--links-opacity);
+  border: 1px solid var(--links);
+  border-radius: var(--gutter);
+  color: var(--links);
+  padding: var(--gutter);
+  font-size: var(--s-font-size);
+}
+
+.pill:not(:last-child) {
+  margin-right: var(--gutter);
+}

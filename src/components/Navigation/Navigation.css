@@ -1,0 +1,16 @@
+/* Navigation */
+
+.navigation {
+  margin: var(--xl-gutter) 0;
+  display: none;
+
+  @media only screen and (min-width: 720px) {
+    display: block;
+  }
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--m-gutter);
+}

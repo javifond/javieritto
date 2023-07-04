@@ -1,0 +1,9 @@
+/* About */
+
+.about p {
+  color: var(--light);
+}
+
+.about b {
+  color: var(--ternary);
+}
