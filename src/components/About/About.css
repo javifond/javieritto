@@ -1,11 +1,20 @@
 /* About */
 
+.about {
+  margin: 0 var(--m-gutter);
+}
+
 .about p {
   color: var(--light);
+  opacity: var(--opacity-weak);
+}
+
+.about p:not(:last-child) {
+  margin-bottom: var(--m-gutter);
 }
 
 .about b {
-  color: var(--ternary);
+  color: var(--headings);
 }
 
 .about-title {
@@ -13,9 +22,14 @@
   padding: var(--gutter) 0;
   position: sticky;
   top: var(--header-height);
+  z-index: 1;
 }
 
 @media only screen and (min-width: 720px) {
+  .about {
+    margin: var(--xl-gutter) var(--m-gutter);
+  }
+
   .about-title {
     position: initial;
   }

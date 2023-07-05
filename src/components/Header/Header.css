@@ -6,9 +6,9 @@
   flex-shrink: 0;
   height: var(--header-height);
   left: 0;
-  padding: var(--xl-gutter);
+  padding: var(--xl-gutter) var(--m-gutter);
   position: sticky;
   right: 0;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }

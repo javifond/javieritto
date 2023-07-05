@@ -19,8 +19,11 @@ function Navigation() {
     <nav className="navigation">
       <ul className="navigation-container">
         {navigationLinks.map(({ name, componentId }, i) => (
-          <li className="navigation-link" key={`navLink-${i}`}>
-            <span onClick={() => onNavLinkClickHandler(componentId)}>
+          <li key={`navLink-${i}`}>
+            <span
+              className="navigation-link"
+              onClick={() => onNavLinkClickHandler(componentId)}
+            >
               {name}
             </span>
           </li>
