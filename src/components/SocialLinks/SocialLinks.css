@@ -3,7 +3,7 @@
 .social-links {
   display: flex;
   gap: var(--xl-gutter);
-  margin-top: var(--xl-gutter);
+  margin-top: var(--m-gutter);
 }
 
 .social-link-container {
