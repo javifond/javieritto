@@ -6,6 +6,21 @@
   margin-top: var(--xl-gutter);
 }
 
+.social-link-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+.social-name {
+  font-size: var(--icon-font-size);
+}
+
 @media only screen and (min-width: 720px) {
   .social-links {
     bottom: var(--xl-gutter);
