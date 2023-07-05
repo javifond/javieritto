@@ -22,4 +22,7 @@
   /* Font Sizes */
   --s-font-size: 12px;
   --font-size: 16px;
+  /* Social Icons */
+  --icon-size: 32px;
+  --icon-font-size: 12px;
 }
