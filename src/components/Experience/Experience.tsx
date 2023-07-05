@@ -1,4 +1,5 @@
 import experience from "../../data/experience.json";
+import { NAVIGATION_COMPONENT_ID } from "../Utils/App.constants";
 
 import "./Experience.css";
 
@@ -12,7 +13,7 @@ interface IExperience {
 
 function Job({ title, dates, company, description, stack }: IExperience) {
   return (
-    <div>
+    <div id={NAVIGATION_COMPONENT_ID.EXPERIENCE}>
       <div className="job-title-wrapper">
         <h3 className="job-title">{title}</h3>
         <h4>{company}</h4>

@@ -16,3 +16,16 @@
   flex-direction: column;
   gap: var(--m-gutter);
 }
+
+.navigation-link {
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+  will-change: transform;
+}
+
+.navigation-link:hover {
+  color: var(--ternary);
+  transform: scale(1.2);
+  transform-origin: left;
+}

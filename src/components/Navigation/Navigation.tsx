@@ -4,16 +4,26 @@ import "./Navigation.css";
 
 interface INavigation {
   name: string;
-  route: string;
+  componentId: string;
 }
 
 function Navigation() {
   const navigationLinks: INavigation[] = navigationData;
+
+  const onNavLinkClickHandler = (componentId: string) => {
+    const element = document.getElementById(componentId);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <nav className="navigation">
       <ul className="navigation-container">
-        {navigationLinks.map(({ name }, i) => (
-          <li key={`navLink-${i}`}>{name}</li>
+        {navigationLinks.map(({ name, componentId }, i) => (
+          <li className="navigation-link" key={`navLink-${i}`}>
+            <span onClick={() => onNavLinkClickHandler(componentId)}>
+              {name}
+            </span>
+          </li>
         ))}
       </ul>
     </nav>

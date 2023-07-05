@@ -1,10 +1,10 @@
 [
   {
-    "name": "Javs",
-    "route": "who"
+    "name": "About me",
+    "componentId": "about-container"
   },
   {
     "name": "My Experience",
-    "route": "experience"
+    "componentId": "experience-container"
   }
 ]

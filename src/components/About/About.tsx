@@ -1,8 +1,10 @@
+import { NAVIGATION_COMPONENT_ID } from "../Utils/App.constants";
+
 import "./About.css";
 
 function About() {
   return (
-    <section className="about">
+    <section id={NAVIGATION_COMPONENT_ID.ABOUT} className="about">
       <h2 className="about-title">About me</h2>
       <p>
         I am an accomplished and highly skilled{" "}
