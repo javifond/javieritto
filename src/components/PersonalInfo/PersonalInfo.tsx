@@ -1,5 +1,7 @@
 import info from "../../data/personal-info.json";
 
+import "./PersonalInfo.css";
+
 interface IInfo {
   name: string;
   role: string;
@@ -11,7 +13,7 @@ function PersonalInfo() {
   return (
     <>
       <h1>{name}</h1>
-      <h2>{`${role} @${company}`}</h2>
+      <h2 className="personal-role">{`${role} @${company}`}</h2>
       <p>{description}</p>
     </>
   );
