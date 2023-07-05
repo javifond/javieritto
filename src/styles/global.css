@@ -3,7 +3,7 @@
   --primary: #023047;
   --secondary: #8ecae6;
   --ternary: #219ebc;
-  --headings: #fb8500;
+  --headings: #80ed99;
   --links: #ffb703;
   --links-opacity: #ffb8031a;
   --light: #ffffff;
@@ -17,7 +17,7 @@
   --xxl-gutter: 64px;
   /* Settings */
   --app-max-width: 1024px;
-  --header-height: 264px;
+  --header-height: 280px;
   --header-min-width: 375px;
   /* Font Sizes */
   --s-font-size: 12px;
@@ -25,4 +25,9 @@
   /* Social Icons */
   --icon-size: 32px;
   --icon-font-size: 12px;
+  /* Experience */
+  --experience-title-height: 64px;
+  /* Opacities */
+  --opacity-weak: 0.85;
+  --opacity-strong: 0.4;
 }

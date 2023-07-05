@@ -3,7 +3,98 @@
     "title": "Lead Frontend Engineer",
     "dates": "November 2022 - Present",
     "company": "Clarivate",
-    "description": "As a Lead Frontend Engineer at Clarivate, I have the privilege of spearheading the development of cutting-edge user interfaces. With a strong focus on technical feasibility and optimal performance, I ensure that UI/UX designs are seamlessly translated into highly efficient and scalable applications. In addition to my technical expertise, I also take on a leadership role by overseeing the work of fellow team members and stakeholders. By fostering a collaborative environment, I ensure that everyone is aligned with the project goals and adheres to the established architecture guidelines. Quality is at the forefront of my responsibilities, as I prioritize adherence to software quality standards. Delivering projects of the highest possible quality within the designated timelines is of utmost importance to me, ensuring that our solutions exceed expectations without compromising on efficiency. Working remotely from Europe, I am fortunate to be part of Clarivate. It is truly rewarding to contribute to impactful projects and drive the forefront of frontend engineering in a global setting.",
-    "stack": ["Javascript", "React", "SCSS", "TypeScript", "Project Management"]
+    "description": "As the Lead Frontend Engineer at Clarivate, I spearhead the development of cutting-edge user interfaces, prioritizing technical feasibility and optimal performance. I ensure seamless translation of UI/UX designs into highly efficient and scalable applications. In addition to my technical expertise, I take on a leadership role, overseeing team members and stakeholders, fostering collaboration, and adhering to established architecture guidelines. I prioritize software quality standards and deliver high-quality projects within designated timelines. Working remotely from Europe, I find it rewarding to contribute to impactful projects and drive frontend engineering at a global scale with Clarivate.",
+    "stack": [
+      "Javascript",
+      "ReactJS",
+      "SCSS",
+      "TypeScript",
+      "Project Management"
+    ]
+  },
+  {
+    "title": "Software Engineer Manager",
+    "dates": "November 2021 - October 2022",
+    "company": "Gaming Innovation Group",
+    "description": "As a Software Engineering Manager at Gaming Innovation Group, I successfully led multiple development teams, providing guidance, mentorship, and process improvements to ensure the creation and maintenance of high-quality software products. Building strong relationships with stakeholders and the Product department, I prioritized business requirements throughout the development process. I created a creative and respectful work environment, shielding the team from interruptions and playing a key role in hiring and onboarding. Collaborating with the Head of Software Development, I established and achieved team and individual objectives, aligning with the company's overall goals.",
+    "stack": ["People Management", "Project Management", "Scrum Master"]
+  },
+  {
+    "title": "Technical Team Lead",
+    "dates": "December 2020 - November 2021",
+    "company": "Gaming Innovation Group",
+    "description": "As a hands-on Technical Team Lead, I successfully guided a talented development team in a fully distributed remote work environment, ensuring the delivery of high-quality software solutions. I provided valuable technical guidance and mentorship, fostering creativity and effective communication. I actively participated in recruitment and onboarding, collaborated with project management, and identified opportunities for process improvements to enhance efficiency. I stayed updated with industry trends to support the team's continuous growth.",
+    "stack": [
+      "Javascript",
+      "VueJS",
+      "SCSS",
+      "TypeScript",
+      "Web Components",
+      "Project Management",
+      "People Management"
+    ]
+  },
+  {
+    "title": "Senior Frontend Developer",
+    "dates": "February 2018 - December 2020",
+    "company": "Gaming Innovation Group",
+    "description": "As a Senior Frontend Developer, I played a pivotal role in a pioneering project for the gambling industry, collaborating with the renowned brand Hard Rock to launch an online casino for the USA market. I shaped the UI architecture and worked closely with the UX team and stakeholders to develop a top-notch casino application focused on optimal performance and an appealing user experience. The project utilized technologies such as PreactJS, Redux, Recompose, High Order Components, CSS Modules, and the Stylus framework for CSS development.",
+    "stack": [
+      "HTML5",
+      "Javascript",
+      "PreactJS",
+      "Redux",
+      "Stylus",
+      "Web Components"
+    ]
+  },
+  {
+    "title": "Javascript Engineer",
+    "dates": "August 2017 - January 2018",
+    "company": "LeoVegas Group",
+    "description": "At LeoVegas Group, a prominent gambling company in Sweden, I played a crucial part in migrating the existing solution to an upgraded platform using state-of-the-art technologies. Collaborating closely with the UX team, I focused on enhancing the user experience and usability of casino and live casino games. As the UI expert, I ensured a seamless and engaging interface. The project involved utilizing ReactJS/Redux Architecture, CSS Modules, and GraphQL as the primary development technologies.",
+    "stack": [
+      "HTML5",
+      "Javascript",
+      "ReactJS",
+      "Redux",
+      "GraphQL",
+      "CSS Modules"
+    ]
+  },
+  {
+    "title": "Senior Frontend Developer",
+    "dates": "June 2016 - August 2017",
+    "company": "Ciklum",
+    "description": "At Ciklum, I played a key role in developing a fully responsive website for a leading company in the lottery market. Collaborating closely with UX and visual designers, I implemented responsive templates to ensure optimal rendering on various devices. I utilized HTML, CSS, and JavaScript (ECMAScript 6) techniques, along with technologies like ReactJS, Reflux Architecture, and SASS with BEM methodology. As the lead developer for the LottoLand Lotto free game project, I spearheaded its implementation and also mentored junior team members, supporting their professional growth. Throughout my tenure, I consistently explored new technologies and opportunities to enhance our front-end development.",
+    "stack": ["HTML5", "Javascript", "ReactJS", "Reflux", "SASS", "BEM"]
+  },
+  {
+    "title": "Frontend Developer",
+    "dates": "August 2015 - June 2016",
+    "company": "William Hill",
+    "description": "As a member of the UX team at William Hill, I designed and developed a new front-end framework for the William Hill Sportsbook application, aiming to create a cohesive and branded gambling site experience. I utilized HTML5, CSS3, and JavaScript, along with frameworks like jQuery, Bootstrap, and Foundation. The development process involved SASS as the CSS preprocessor, Gulp as the task manager, and AngularJS for the single-page application. Agile methodologies were employed for efficient project delivery, with a focus on creating a visually appealing and seamless user interface in line with the William Hill brand.",
+    "stack": ["HTML5", "AngularJS", "Javascript", "CSS3", "SASS", "BEM"]
+  },
+  {
+    "title": "Frontend Developer",
+    "dates": "May 2014 - August 2015",
+    "company": "Financial Force",
+    "description": "During my time at FinancialForce.com, I served as a Frontend Developer, working on dynamic web content for cloud-based applications on Salesforce1 and Force.com platforms. Using my expertise in HTML5, CSS3, and JavaScript, I created captivating user interfaces. I employed frontend frameworks like jQuery and Sencha for efficiency and Siesta for Unit Testing to ensure software quality. Adopting a Test-Driven Development approach and utilizing agile SCRUM methodology, we achieved efficient project delivery and client satisfaction. Working at FinancialForce.com provided me with an enriching experience, contributing to cutting-edge web applications in a dynamic and collaborative environment.",
+    "stack": ["HTML5", "Javascript", "CSS3", "SASS", "BEM", "TDD"]
+  },
+  {
+    "title": "Frontend Developer",
+    "dates": "February 2011 - May 2014",
+    "company": "NGA Human Resources",
+    "description": "As a Frontend Developer at NGA Human Resources, I had a pivotal role in designing, developing, and maintaining core libraries for a web-based human resources solution. These libraries provided modularity and extended functionality to the solution's key features. I utilized modern web technologies like HTML5 and CSS3, along with jQuery, Backbone, and Bootstrap frameworks. By following best coding practices, I ensured the delivery of high-quality code. Additionally, I worked with XML and JSON markup languages, utilizing APIs for seamless communication with the SAP Backend. It was a rewarding experience to contribute to a robust and efficient web-based solution for human resources at NGA Human Resources.",
+    "stack": ["HTML5", "JQuery", "CSS3", "Bootsptrap"]
+  },
+  {
+    "title": "Internship - WiMAX and WiFi Assistant",
+    "dates": "May 2010 - November 2010",
+    "company": "NGA Human Resources",
+    "description": "During my internship at AT4 wireless, I contributed as a WiMAX and WiFi Assistant, conducting diverse test procedures to certify wireless technologies for prototype devices. I also designed and developed a web-based project management tool for WiMAX and WiFi projects, incorporating features like resource allocation, progress tracking, budget management, and workload analysis, using HTML, CSS, PHP, and MySQL. This internship provided hands-on experience in IT, allowing me to apply my web development and project management skills while expanding my knowledge of wireless technologies. Working with AT4 wireless was an enriching experience that enhanced my practical understanding of wireless technology implementation.",
+    "stack": ["HTML5", "PHP", "CSS3", "MySQL"]
   }
 ]

@@ -13,11 +13,11 @@ interface IExperience {
 
 function Job({ title, dates, company, description, stack }: IExperience) {
   return (
-    <div id={NAVIGATION_COMPONENT_ID.EXPERIENCE}>
+    <div className="experience-wrapper">
       <div className="job-title-wrapper">
-        <h3 className="job-title">{title}</h3>
+        <h2 className="job-title">{title}</h2>
         <h4>{company}</h4>
-        <h4 className="dates">{dates}</h4>
+        <h5 className="dates">{dates}</h5>
       </div>
       <p className="description">{description}</p>
       <div className="pills">
@@ -35,7 +35,10 @@ function Experience() {
   const myExperience: IExperience[] = experience;
 
   return (
-    <section>
+    <section
+      id={NAVIGATION_COMPONENT_ID.EXPERIENCE}
+      className="experience-container"
+    >
       <h2 className="experience-title">My Experience</h2>
       {myExperience.map((job, i) => (
         <Job {...job} key={`my-job-${i}`} />

@@ -1,17 +1,28 @@
 /* Experience */
 
+.experience-container {
+  margin: 0 var(--m-gutter);
+}
+
 .experience-title {
   background-color: var(--primary);
   padding: var(--gutter) 0;
+  height: var(--experience-title-height);
   position: sticky;
   top: var(--header-height);
+  z-index: 2;
+}
+
+.experience-wrapper {
+  margin-bottom: var(--xl-gutter);
 }
 
 .job-title-wrapper {
   background-color: var(--primary);
   padding: var(--gutter) 0;
   position: sticky;
-  top: var(--header-height);
+  top: calc(var(--header-height) + var(--experience-title-height));
+  z-index: 1;
 }
 
 @media only screen and (min-width: 720px) {
@@ -26,13 +37,16 @@
 }
 
 .description {
+  color: var(--light);
   margin: var(--gutter) 0;
   margin-bottom: var(--xl-gutter);
+  opacity: var(--opacity-weak);
 }
 
 .dates {
   margin: var(--gutter) 0;
   text-transform: uppercase;
+  opacity: var(--opacity-strong);
 }
 
 .pills {
