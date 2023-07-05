@@ -5,10 +5,6 @@
   padding: var(--gutter) 0;
   position: sticky;
   top: var(--header-height);
-
-  @media only screen and (min-width: 720px) {
-    position: initial;
-  }
 }
 
 .job-title-wrapper {
@@ -16,8 +12,11 @@
   padding: var(--gutter) 0;
   position: sticky;
   top: var(--header-height);
+}
 
-  @media only screen and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
+  .experience-title,
+  .job-title-wrapper {
     position: initial;
   }
 }

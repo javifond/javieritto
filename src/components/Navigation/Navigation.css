@@ -3,8 +3,10 @@
 .navigation {
   margin: var(--xl-gutter) 0;
   display: none;
+}
 
-  @media only screen and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
+  .navigation {
     display: block;
   }
 }

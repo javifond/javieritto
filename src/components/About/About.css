@@ -13,8 +13,10 @@
   padding: var(--gutter) 0;
   position: sticky;
   top: var(--header-height);
+}
 
-  @media only screen and (min-width: 720px) {
+@media only screen and (min-width: 720px) {
+  .about-title {
     position: initial;
   }
 }
