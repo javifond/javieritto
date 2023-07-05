@@ -17,6 +17,8 @@
   --xxl-gutter: 64px;
   /* Settings */
   --app-max-width: 1024px;
+  --header-height: 264px;
+  --header-min-width: 375px;
   /* Font Sizes */
   --s-font-size: 12px;
   --font-size: 16px;

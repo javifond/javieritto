@@ -13,7 +13,7 @@ function SocialLinks() {
     <ul className="social-links">
       {links.map(({ name, link }, i) => (
         <li key={`social-link-${i}`}>
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             {name}
           </a>
         </li>

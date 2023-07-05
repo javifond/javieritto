@@ -3,6 +3,7 @@ import "./About.css";
 function About() {
   return (
     <section className="about">
+      <h2 className="about-title">About me</h2>
       <p>
         I am an accomplished and highly skilled{" "}
         <b>Software Engineering Manager</b> with over{" "}

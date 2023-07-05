@@ -1,6 +1,28 @@
 /* Experience */
 
-.title {
+.experience-title {
+  background-color: var(--primary);
+  padding: var(--gutter) 0;
+  position: sticky;
+  top: var(--header-height);
+
+  @media only screen and (min-width: 720px) {
+    position: initial;
+  }
+}
+
+.job-title-wrapper {
+  background-color: var(--primary);
+  padding: var(--gutter) 0;
+  position: sticky;
+  top: var(--header-height);
+
+  @media only screen and (min-width: 720px) {
+    position: initial;
+  }
+}
+
+.job-title {
   color: var(--headings);
 }
 
@@ -14,6 +36,12 @@
   text-transform: uppercase;
 }
 
+.pills {
+  display: flex;
+  gap: var(--gutter);
+  flex-wrap: wrap;
+}
+
 .pill {
   background-color: var(--links-opacity);
   border: 1px solid var(--links);
@@ -21,8 +49,4 @@
   color: var(--links);
   padding: var(--gutter);
   font-size: var(--s-font-size);
-}
-
-.pill:not(:last-child) {
-  margin-right: var(--gutter);
 }
