@@ -2,10 +2,15 @@
 
 .personal-role {
   display: none;
+  opacity: var(--opacity-strong);
 }
 
 @media only screen and (min-width: 720px) {
   .personal-role {
     display: block;
   }
+}
+
+.motto {
+  font-style: oblique;
 }

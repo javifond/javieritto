@@ -13,8 +13,8 @@ function PersonalInfo() {
   return (
     <>
       <h1>{name}</h1>
-      <h2 className="personal-role">{`${role} @${company}`}</h2>
-      <p>{description}</p>
+      <h3 className="personal-role">{`${role} @${company}`}</h3>
+      <p className="motto">{description}</p>
     </>
   );
 }
