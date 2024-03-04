@@ -1,5 +1,16 @@
 [
   {
+    "title": "Frontend Architect",
+    "dates": "March 2024 - current role",
+    "company": "Gaming Innovation Group",
+    "description": "As the Frontend Architect, I lead diverse development teams in aligning initiatives with organizational goals, crafting collaborative designs for estimation and implementation. I oversee design fidelity, quality adherence, and team growth while promoting evolutionary collaboration and incremental approaches over subjective perfection. Active engagement with stakeholders and utilization of Pair programming, scrum ceremonies, and PRs facilitate effective teamwork. Emphasizing quality enablement, I automate pipelines and deliver high-level models of complex requirements with working code. I advocate lean guidance, providing feedback to enhance procedures and uphold agile practices within the team. I spearhead the creation and maintenance of frontend tool sets, including UI Kits and application templates, and contribute to open-source partner programs. In summary, my role ensures efficient collaboration, quality delivery, and continuous improvement, driving the success and growth of our projects and business unit.",
+    "stack": [
+      "ReactJS",
+      "TypeScript",
+      "GraphQL"
+    ]
+  },
+  {
     "title": "Lead Frontend Engineer",
     "dates": "November 2022 - July 2023",
     "company": "Clarivate",
